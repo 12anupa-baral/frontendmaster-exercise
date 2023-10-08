@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1024px;
+    width: 700px;
+    text-align:left;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+   
+   
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(251, 55, 212);
+    
+
+}
+
+h2 {
+    color: rgb(146, 5, 82);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.blog {
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+nav {
+    border-top: 1px solid rgb(251, 55, 212);
+    border-bottom: 1px solid rgb(251, 55, 212);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 0.5rem;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(189, 7, 113);
+    font-weight: bold;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.content {
+    margin-left: 1rem;
+
+}
+
+article p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.foot {
+    margin-top: 1rem;
+    height: 0.2rem;
+    border-top: 1px solid rgb(251, 55, 212);
+    border-bottom: 1px solid rgb(251, 55, 212);
+}
+
+.footer-image {
+    margin-top: 0.5em;
+    margin-left: 15rem;
+}
+
+footer p{
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+
+cite{
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color:rgb(113, 112, 112);
+}
